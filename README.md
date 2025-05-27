@@ -32,15 +32,22 @@ Whether you're a complete newbie or someone revisiting Python, **PyKing** offers
 
 ## Course Structure📁 
 
-All notebooks are inside the `Course Resources/` folder and organized to be read in sequence.
+PyKing/
+├── Course Notebooks/ → 📘 Main Jupyter Notebooks (Recommended Learning Path)
+├── Course HTML Files/ → 🌐 Direct HTML Exports for Quick Preview in Browser
+├── PyKing Logo.png → 🖼️ Project Branding
+└── README.md → 📄 You're reading it!
 
-Each notebook includes:
+Each Course Notebook includes:
 - ✅ Short lessons
 - ✅ Commented code
 - ✅ Beginner guidance
 - ✅ Interactive cells
 
+The `Course HTML Files/` folder contains `.html` exports of each notebook — built for fast revision. You can double-click and view them in your browser without needing Jupyter or VS Code!
+
 > ⚠️ The course is **under active development**. The **first definitive version (v1.0)** is expected in the next **2 months**.
+> We’re adding new notebooks, refining the structure, and expanding features weekly.
 
 ---
 
