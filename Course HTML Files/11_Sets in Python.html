@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>534fc0162b66424f9bd91e57b6cc1eda</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="a69050fa" class="cell markdown">
+<h1 id="-notebook-11-sets-in-python"><strong>📘 Notebook 11: Sets in
+Python</strong></h1>
+<h2 id="-learning-objectives">🎯 Learning Objectives:</h2>
+<ul>
+<li>Understand what sets are and how to create them</li>
+<li>Perform common set operations like union, intersection, difference,
+etc.</li>
+<li>Use <code>.add()</code>, <code>.remove()</code>,
+<code>.discard()</code> safely</li>
+<li>Learn about <code>frozenset</code> and how it differs from
+<code>set</code></li>
+<li>Understand hashability constraints on set elements</li>
+</ul>
+<p>🕒 Estimated Time: 15–20 minutes</p>
+</div>
+<div id="e7beedd1-313f-47ac-9ff8-c810138e28e3" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h2 id="creating-a-set"><strong>Creating a Set</strong></h2>
+</div>
+<div id="18c7c1cb-441c-4530-8eb4-da0b60acefb7" class="cell raw">
+
+</div>
+<div id="62734647" class="cell code" data-execution_count="3">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>my_set1 <span class="op">=</span> <span class="bu">set</span>()</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(my_set1)  <span class="co"># This is an empty set → set()</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>set()
+</code></pre>
+</div>
+</div>
+<div id="3a3d4345" class="cell code" data-execution_count="4">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>my_set2 <span class="op">=</span> <span class="bu">set</span>(<span class="st">&#39;a&#39;</span>)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(my_set2)  <span class="co"># Creates a set with 1 element: {&#39;a&#39;}</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>{&#39;a&#39;}
+</code></pre>
+</div>
+</div>
+<div id="94a6fff1-4043-4d87-89d0-65557fe4fea9" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h2 id="common-operations-on-set"><strong>Common Operations on
+Set</strong></h2>
+</div>
+<div id="26f0f5c4" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h3 id="the-add-method-on-set"><strong>The <code>.add()</code> Method on
+Set</strong></h3>
+</div>
+<div id="9ce14d92" class="cell code" data-execution_count="7">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>my_set2.add(<span class="dv">1</span>)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(my_set2)  <span class="co"># Adds 1 → {&#39;a&#39;, 1}</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>{1, &#39;a&#39;}
+</code></pre>
+</div>
+</div>
+<div id="a3f0f416" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h3 id="the-remove-method-on-set"><strong>The <code>.remove()</code>
+Method on Set</strong></h3>
+</div>
+<div id="31bdf80f" class="cell code" data-execution_count="9">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>my_set2.remove(<span class="dv">1</span>)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(my_set2)  <span class="co"># Removes 1 → {&#39;a&#39;}</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>{&#39;a&#39;}
+</code></pre>
+</div>
+</div>
+<div id="590ae8fb-2583-453b-a922-96aaa49dbb08" class="cell code"
+data-execution_count="10">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>my_set2.remove(<span class="dv">2</span>) <span class="co"># If we try to remove the value 2 even if it is not present in the set</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(my_set2)  <span class="co"># Python will not ignore it and raise an error as KeyError: 2</span></span></code></pre></div>
+<div class="output error" data-ename="KeyError" data-evalue="2">
+<pre><code>---------------------------------------------------------------------------
+KeyError                                  Traceback (most recent call last)
+Cell In[10], line 1
+----&gt; 1 my_set2.remove(2) # If we try to remove the value 2 even if it is not present in the set
+      2 print(my_set2)
+
+KeyError: 2
+</code></pre>
+</div>
+</div>
+<div id="f4ef6a0e-9392-49ac-826b-c475fb91da81" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h3 id="the-discard-method-on-set"><strong>The <code>.discard()</code>
+Method on Set</strong></h3>
+</div>
+<div id="f232ba74-bd07-4b96-8a99-9aef75701a62" class="cell raw">
+
+</div>
+<div id="a549cd4c-534a-4a4b-bbe9-41adadaee42b" class="cell code"
+data-execution_count="24">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>my_set2.discard(<span class="dv">2</span>)  <span class="co"># Won’t raise error even if 2 isn’t there</span></span></code></pre></div>
+</div>
+<div id="825ba1c9-b681-4d82-880b-60187ea45b55" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h3 id="the-union-method-on-set"><strong>The <code>.union()</code>
+Method on Set</strong></h3>
+</div>
+<div id="54246084-da11-4a64-b30d-bcbba2b69f77" class="cell raw">
+
+</div>
+<div id="c3079514-e31f-4357-b045-2c55ba7d853a" class="cell code"
+data-execution_count="27">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>set_a <span class="op">=</span> {<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>}</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>set_b <span class="op">=</span> {<span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>}</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(set_a.union(set_b)) <span class="co"># Union → combines all unique elements</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>{1, 2, 3, 4, 5}
+</code></pre>
+</div>
+</div>
+<div id="b067d2e4-abe9-4f7b-9366-d2ed9c0729c4" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h3 id="the-intersection-method-on-set"><strong>The
+<code>.intersection()</code> Method on Set</strong></h3>
+</div>
+<div id="134a93f5-2a23-4345-b0d9-50b8ed7ff91d" class="cell raw">
+
+</div>
+<div id="0a745bbe-a888-4752-9ed8-67483d6cd03d" class="cell code"
+data-execution_count="30">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>set_a <span class="op">=</span> {<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>}</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>set_b <span class="op">=</span> {<span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>}</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(set_a.intersection(set_b)) <span class="co"># Intersection → common elements</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>{3}
+</code></pre>
+</div>
+</div>
+<div id="88879ef6-7c55-4407-8921-6b318a8f3b5f" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h3 id="the-difference-method-on-set"><strong>The
+<code>.difference()</code> Method on Set</strong></h3>
+</div>
+<div id="a8e8510c-b2ee-40b5-a839-126a66888a2b" class="cell raw">
+
+</div>
+<div id="fda67f94-9b8e-4049-92e3-39298659a9f2" class="cell code"
+data-execution_count="33">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>set_a <span class="op">=</span> {<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>}</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>set_b <span class="op">=</span> {<span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>}</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(set_a.difference(set_b)) <span class="co"># Difference → elements in a but not the b</span></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(set_b.difference(set_a)) <span class="co"># Difference → elements in b but not the a</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>{1, 2}
+{4, 5}
+</code></pre>
+</div>
+</div>
+<div id="b1666129-057c-4fd6-9f4c-60df7e515473" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h3 id="the-symmetric_difference-method-on-set"><strong>The
+<code>.symmetric_difference()</code> Method on Set</strong></h3>
+</div>
+<div id="2b1e3d99-a600-4363-9d42-cbb9f9b27886" class="cell raw">
+
+</div>
+<div id="8aee0308-67b7-42d1-b0a2-4789349c8f97" class="cell code"
+data-execution_count="36">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>set_a <span class="op">=</span> {<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>}</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>set_b <span class="op">=</span> {<span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>}</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(set_a.symmetric_difference(set_b)) <span class="co"># Symmetric Difference → elements not shared</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>{1, 2, 4, 5}
+</code></pre>
+</div>
+</div>
+<div id="d3a5c6d7" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h2 id="the-set-constructor"><strong>The set() Constructor</strong></h2>
+</div>
+<div id="c6304a73-b624-4e0e-a027-33b45f3eb55f" class="cell raw">
+
+</div>
+<div id="04cb2e68-90b4-4abc-8a76-9c0a704af237" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h3 id="the-set-constructor-on-a-list"><strong>The set() Constructor on
+a List</strong></h3>
+</div>
+<div id="a77f3059" class="cell code" data-execution_count="40">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>my_list <span class="op">=</span> [<span class="st">&#39;a&#39;</span>, <span class="st">&#39;a&#39;</span>, <span class="st">&#39;a&#39;</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">3</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">2</span>]</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>my_list <span class="op">=</span> <span class="bu">set</span>(my_list)</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(my_list)  <span class="co"># Removes duplicates</span></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Output (order may vary): {&#39;a&#39;, 1, 2, 3, 4}</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>{1, 2, 3, 4, &#39;a&#39;}
+</code></pre>
+</div>
+</div>
+<div id="a1dc02db-06a7-4d31-af41-df75599d1cc6" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h3 id="the-set-constructor-on-a-tuple"><strong>The set() Constructor on
+a Tuple</strong></h3>
+</div>
+<div id="98499c98" class="cell code" data-execution_count="43">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>my_tuple <span class="op">=</span> (<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">1</span>, <span class="dv">8</span>, <span class="dv">2</span>, <span class="st">&#39;a&#39;</span>, <span class="dv">8</span>, <span class="dv">3</span>)</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>my_tuple <span class="op">=</span> <span class="bu">set</span>(my_tuple)</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(my_tuple)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>{1, 2, 3, 8, &#39;a&#39;}
+</code></pre>
+</div>
+</div>
+<div id="050ad116-5af8-4380-a009-f3f9bb33701b" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h3 id="the-set-constructor-on-a-dictionary"><strong>The set()
+Constructor on a Dictionary</strong></h3>
+</div>
+<div id="5f459dc3-8e68-4739-8659-f5ea5654a71f" class="cell code"
+data-execution_count="46">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>my_dict <span class="op">=</span> {<span class="st">&#39;a&#39;</span>: <span class="dv">1</span>, <span class="st">&#39;b&#39;</span>: <span class="dv">2</span>, <span class="st">&#39;c&#39;</span>: <span class="dv">3</span>}</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Default: creates set of keys</span></span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>my_set <span class="op">=</span> <span class="bu">set</span>(my_dict)</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(my_set)  <span class="co"># → {&#39;a&#39;, &#39;b&#39;, &#39;c&#39;}</span></span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Get only the values</span></span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>my_set <span class="op">=</span> <span class="bu">set</span>(my_dict.values())</span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(my_set)  <span class="co"># → {1, 2, 3}</span></span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-11"><a href="#cb24-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Get key-value pairs as tuples</span></span>
+<span id="cb24-12"><a href="#cb24-12" aria-hidden="true" tabindex="-1"></a>my_set <span class="op">=</span> <span class="bu">set</span>(my_dict.items())</span>
+<span id="cb24-13"><a href="#cb24-13" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(my_set)  <span class="co"># → {(&#39;a&#39;, 1), (&#39;b&#39;, 2), (&#39;c&#39;, 3)}</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>{&#39;b&#39;, &#39;c&#39;, &#39;a&#39;}
+{1, 2, 3}
+{(&#39;b&#39;, 2), (&#39;a&#39;, 1), (&#39;c&#39;, 3)}
+</code></pre>
+</div>
+</div>
+<div id="a5c13a3b-bd44-44dc-8050-13397f771531" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h2 id="limitations-of-sets"><strong>Limitations of Sets</strong></h2>
+</div>
+<div id="712e626f-99c5-4126-8417-a912e58a1dde" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h3 id="the-set-cannot-be-the-part-of-the-set"><strong>The Set cannot be
+the part of the Set</strong></h3>
+</div>
+<div id="bb71e917-fc6f-44bd-a170-0ff38a31210a" class="cell raw">
+
+</div>
+<div id="86c74771-1c1b-4930-907c-005c461bc275" class="cell code"
+data-execution_count="50">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>set2 <span class="op">=</span> {<span class="st">&quot;Hello&quot;</span>, {<span class="st">&quot;World&quot;</span>}}  <span class="co"># ❌ Error: sets cannot be nested inside sets</span></span></code></pre></div>
+<div class="output error" data-ename="TypeError"
+data-evalue="unhashable type: &#39;set&#39;">
+<pre><code>---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+Cell In[50], line 1
+----&gt; 1 set2 = {&quot;Hello&quot;, {&quot;World&quot;}}
+
+TypeError: unhashable type: &#39;set&#39;
+</code></pre>
+</div>
+</div>
+<div id="0f4b5aee" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h3 id="lists-can-not-be-a-part-of-the-set"><strong>Lists can not be a
+part of the Set</strong></h3>
+</div>
+<div id="f0fc323c-5737-4951-8079-01df9d81f0d9" class="cell raw">
+
+</div>
+<div id="44e4fbb7" class="cell code" data-execution_count="53">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>my_set_2 <span class="op">=</span> {<span class="st">&quot;Hello&quot;</span>, [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>]}  <span class="co"># ❌ Error: lists are unhashable</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(my_set_2)</span></code></pre></div>
+<div class="output error" data-ename="TypeError"
+data-evalue="unhashable type: &#39;list&#39;">
+<pre><code>---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+Cell In[53], line 1
+----&gt; 1 my_set_2 = {&quot;Hello&quot;, [1, 2, 3, 4]}  # ❌ Error: lists are unhashable
+      2 print(my_set_2)
+
+TypeError: unhashable type: &#39;list&#39;
+</code></pre>
+</div>
+</div>
+<div id="1f7381f6-991b-4d57-a116-ce6dc161a927" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h3 id="we-cannot-start-a-set-by-just-adding-an-integer"><strong>We
+cannot start a Set by just Adding an Integer</strong></h3>
+</div>
+<div id="2dd107c8-4b36-4181-938c-45346c522665" class="cell raw">
+
+</div>
+<div id="1ead33a9-b711-4f97-9393-5bb8f686e4b6" class="cell code"
+data-execution_count="56">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="bu">set</span>([<span class="dv">2</span>])  <span class="co"># ✅ Correct way → {2}</span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a><span class="bu">set</span>(<span class="dv">2</span>)    <span class="co"># ❌ Incorrect → TypeError: int is not iterable</span></span></code></pre></div>
+<div class="output error" data-ename="TypeError"
+data-evalue="&#39;int&#39; object is not iterable">
+<pre><code>---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+Cell In[56], line 2
+      1 set([2])  # ✅ Correct way → {2}
+----&gt; 2 set(2)
+
+TypeError: &#39;int&#39; object is not iterable
+</code></pre>
+</div>
+</div>
+<div id="9fbaee94-162f-4b1c-9c48-788f62f05764" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h2 id="the-frozenset--the-immutable-set"><strong>The
+<code>frozenset</code> — The Immutable Set</strong></h2>
+</div>
+<div id="8364a024-14c6-4ccf-aae5-080a5c2656a4" class="cell code"
+data-execution_count="59">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>🔒 A `frozenset` <span class="kw">is</span> an immutable version of a <span class="bu">set</span>:</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a><span class="op">-</span> Cannot be modified after creation</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a><span class="op">-</span> Useful <span class="im">as</span> dictionary keys <span class="kw">or</span> elements <span class="kw">in</span> other sets</span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>✅ You can create one using:</span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a>```python</span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a>fs <span class="op">=</span> <span class="bu">frozenset</span>([<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>])</span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a>```</span></code></pre></div>
+<div class="output error" data-ename="SyntaxError"
+data-evalue="invalid character &#39;🔒&#39; (U+1F512) (3689852178.py, line 1)">
+<pre><code>  Cell In[59], line 1
+    🔒 A `frozenset` is an immutable version of a set:
+    ^
+SyntaxError: invalid character &#39;🔒&#39; (U+1F512)
+
+</code></pre>
+</div>
+</div>
+<div id="529d869d-fe90-4007-b2c4-da2424abcc9f" class="cell code"
+data-execution_count="61">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>fs <span class="op">=</span> <span class="bu">frozenset</span>([<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>])</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>fs.add(<span class="dv">4</span>)  <span class="co"># ❌ Error: frozenset is immutable → AttributeError</span></span></code></pre></div>
+<div class="output error" data-ename="AttributeError"
+data-evalue="&#39;frozenset&#39; object has no attribute &#39;add&#39;">
+<pre><code>---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+Cell In[61], line 2
+      1 fs = frozenset([1, 2, 3])
+----&gt; 2 fs.add(4)
+
+AttributeError: &#39;frozenset&#39; object has no attribute &#39;add&#39;
+</code></pre>
+</div>
+</div>
+<div id="7fad7036-8c3b-490b-8e67-794793ea0a14" class="cell markdown">
+<hr />
+</div>
+<div id="fc5ab63b-83ee-4fe4-b9e1-a5ebf7882abb" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h2 id="-summary"><strong>✅ Summary:</strong></h2>
+<p>In this notebook, you learned:</p>
+<ul>
+<li>How to create and manipulate sets</li>
+<li>How to safely remove elements using .discard()</li>
+<li>Set operations: union, intersection, difference, and symmetric
+difference</li>
+<li>What data types are allowed in sets (hashable only)</li>
+<li>What frozenset is and why it's useful</li>
+</ul>
+<p>💬 Ask your questions or explore more here → <a
+href="https://github.com/StudiYash/PyKing/discussions"
+class="uri">https://github.com/StudiYash/PyKing/discussions</a></p>
+</div>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"94343aceccc96627","version":"2025.4.0-1-g37f21b1","r":1,"token":"0357a45f23a943f08700f7f9af191ee6","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}}}' crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>60c4bc74afb74886a7ba6c285e451c94</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="3cd1714b-138d-44ba-bb6d-815ea6490b94" class="cell markdown">
+<h1 id="-notebook-07-print-formatting-with-strings"><strong>📘 Notebook
+07: Print Formatting with Strings</strong></h1>
+<h2 id="-learning-objectives">🎯 Learning Objectives:</h2>
+<ul>
+<li>Format and insert variables into strings using
+<code>.format()</code> and <code>f-strings</code></li>
+<li>Display float values with precision and use thousand separators</li>
+<li>Format numbers as binary, hexadecimal, and octal</li>
+<li>Align text within formatted strings (left, center, right)</li>
+</ul>
+<p>🕒 Estimated Time: 15–18 minutes</p>
+</div>
+<div id="5fa68cb2-1217-467d-8de5-b5e8e82d2903" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h2 id="the-format-method"><strong>The .format() Method</strong></h2>
+</div>
+<div id="ee9ba2f5-68b9-4749-bbbe-1c5d0d546c2b" class="cell raw">
+
+</div>
+<div id="22214bf7" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h3 id="first-way-of-using-format-method--"><strong>First way of using
+.format() Method :-</strong></h3>
+</div>
+<div id="ceb08be2" class="cell code" data-execution_count="4">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;This is a string </span><span class="sc">{}</span><span class="st">&#39;</span>.<span class="bu">format</span>(<span class="st">&#39;INSERTED&#39;</span>))  <span class="co"># 🔁 Inserts the word inside placeholder → &#39;This is a string INSERTED&#39;</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>This is a string INSERTED
+</code></pre>
+</div>
+</div>
+<div id="082c47c6" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h3 id="second-way-of-using-format-method--"><strong>Second way of using
+.format() Method :-</strong></h3>
+</div>
+<div id="9660d23a" class="cell code" data-execution_count="6">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;The </span><span class="sc">{}</span><span class="st"> </span><span class="sc">{}</span><span class="st"> </span><span class="sc">{}</span><span class="st">&#39;</span>.<span class="bu">format</span>(<span class="st">&#39;fox&#39;</span>, <span class="st">&#39;is&#39;</span>, <span class="st">&#39;running&#39;</span>))  <span class="co"># ➕ Inserts values in the order given</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Output: The fox is running</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>The fox is running
+</code></pre>
+</div>
+</div>
+<div id="224e2ba3" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h3 id="third-way-of-using-format-method--"><strong>Third way of using
+.format() Method :-</strong></h3>
+</div>
+<div id="1610f2dc" class="cell code" data-execution_count="8">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;The </span><span class="sc">{f}</span><span class="st"> </span><span class="sc">{i}</span><span class="st"> </span><span class="sc">{r}</span><span class="st">&#39;</span>.<span class="bu">format</span>(f<span class="op">=</span><span class="st">&#39;fox&#39;</span>, i<span class="op">=</span><span class="st">&#39;is&#39;</span>, r<span class="op">=</span><span class="st">&#39;running&#39;</span>))  <span class="co"># 🎯 Assign each word using named keys</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Output: The fox is running</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>The fox is running
+</code></pre>
+</div>
+</div>
+<div id="5243ae8f-3db3-4e90-87da-4633a9f13e4e" class="cell raw">
+
+</div>
+<div id="64f0f1cd" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h2 id="the-f-strings-method"><strong>The f-strings Method</strong></h2>
+</div>
+<div id="758e4127-49e2-42ec-9ba5-626c51190318" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h3 id="f-strings-method-used-for-single-variable"><strong>f-strings
+method used for single variable</strong></h3>
+</div>
+<div id="1dd02077" class="cell code" data-execution_count="11">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>name <span class="op">=</span> <span class="st">&quot;Yash&quot;</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;His name is </span><span class="sc">{</span>name<span class="sc">}</span><span class="ss">&#39;</span>)  <span class="co"># 🧵 Inserts the variable directly inside the string</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>His name is Yash
+</code></pre>
+</div>
+</div>
+<div id="32db8bd8-5360-45c3-a818-9d09e1029b56" class="cell raw">
+
+</div>
+<div id="4f492964" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h3 id="f-strings-method-used-for-multiple-variables"><strong>f-strings
+method used for multiple variables</strong></h3>
+</div>
+<div id="bf1b0040" class="cell code" data-execution_count="13">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>name <span class="op">=</span> <span class="st">&quot;Yash&quot;</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>age <span class="op">=</span> <span class="st">&quot;19&quot;</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>sex <span class="op">=</span> <span class="st">&quot;boy&quot;</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;His name is </span><span class="sc">{</span>name<span class="sc">}</span><span class="ss">. His age is </span><span class="sc">{</span>age<span class="sc">}</span><span class="ss">. He is a </span><span class="sc">{</span>sex<span class="sc">}</span><span class="ss">.&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>His name is Yash. His age is 19. He is a boy.
+</code></pre>
+</div>
+</div>
+<div id="6b297fd9-ea2b-453d-a2a6-c55e2ca30555" class="cell raw">
+
+</div>
+<div id="9ac2f964-ae5e-4870-857d-41da11ea1065" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h2 id="formatting-cheatsheet"><strong>Formatting
+Cheatsheet</strong></h2>
+</div>
+<div id="b012dec2-0d1e-4a24-b85c-f6d1ae8c3c37" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h3 id="floating-point-precision---2f"><strong>Floating Point Precision
+- <code>:.2f</code></strong></h3>
+</div>
+<div id="37aa554a-070a-4c21-8727-bf8ce7cb7bdf" class="cell raw">
+
+</div>
+<div id="c821976d-3ab3-488d-afb1-f187a8315499" class="cell code"
+data-execution_count="16">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>value <span class="op">=</span> <span class="fl">3.14159</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="co"># .format()</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Pi is </span><span class="sc">{:.2f}</span><span class="st">&quot;</span>.<span class="bu">format</span>(value))  <span class="co"># Output: Pi is 3.14</span></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a><span class="co"># f-string</span></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Pi is </span><span class="sc">{</span>value<span class="sc">:.2f}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Pi is 3.14
+Pi is 3.14
+</code></pre>
+</div>
+</div>
+<div id="a1006675-2813-4d19-99e0-3294f6c69202" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h3 id="comma-separator---"><strong>Comma Separator -
+<code>:,</code></strong></h3>
+</div>
+<div id="93805763-4ad4-4864-b0a2-f83f02a0fea5" class="cell raw">
+
+</div>
+<div id="c8b73e70-78fc-467d-8f0f-e71afcc43e39" class="cell code"
+data-execution_count="18">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>num <span class="op">=</span> <span class="dv">1234567</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="co"># .format()</span></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Formatted: {:,}&quot;</span>.<span class="bu">format</span>(num))  <span class="co"># Adds commas → 1,234,567</span></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a><span class="co"># f-string</span></span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Formatted: </span><span class="sc">{</span>num<span class="sc">:,}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Formatted: 1,234,567
+Formatted: 1,234,567
+</code></pre>
+</div>
+</div>
+<div id="7f5dcbce-7d09-45d5-9e4a-fc66b817a2e9" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h3 id="binary-format---b"><strong>Binary Format -
+<code>:b</code></strong></h3>
+</div>
+<div id="0d7e3bc7-2c41-4791-a293-e2d1dc50d4a1" class="cell raw">
+
+</div>
+<div id="33ea0bd8-6884-4ac8-b298-60ebb8c11090" class="cell code"
+data-execution_count="20">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>num <span class="op">=</span> <span class="dv">42</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="co"># .format()</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Binary: </span><span class="sc">{:b}</span><span class="st">&quot;</span>.<span class="bu">format</span>(num))</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a><span class="co"># f-string</span></span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Binary: </span><span class="sc">{</span>num<span class="sc">:b}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Binary: 101010
+Binary: 101010
+</code></pre>
+</div>
+</div>
+<div id="8d650a65-fc75-46c5-94c5-3c154e241b35" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h3 id="hexadecimal-format---x"><strong>Hexadecimal Format -
+<code>:x</code></strong></h3>
+</div>
+<div id="c254f68b-08f6-4779-8b7a-69d4796092f2" class="cell raw">
+
+</div>
+<div id="c26d0b99-401f-4300-9b57-6564a60c3b57" class="cell code"
+data-execution_count="22">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>num <span class="op">=</span> <span class="dv">255</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a><span class="co"># .format()</span></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Hex: </span><span class="sc">{:x}</span><span class="st">&quot;</span>.<span class="bu">format</span>(num))</span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a><span class="co"># f-string</span></span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Hex: </span><span class="sc">{</span>num<span class="sc">:x}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Hex: ff
+Hex: ff
+</code></pre>
+</div>
+</div>
+<div id="96511732-c356-4141-9553-7d687a41bb9a" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h3 id="octal-format---o"><strong>Octal Format -
+<code>:o</code></strong></h3>
+</div>
+<div id="27ed34b3-9ba1-4a51-a0dd-153820040c4a" class="cell raw">
+
+</div>
+<div id="f6defa48-5179-4491-a8da-a090ded5ae30" class="cell code"
+data-execution_count="24">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>num <span class="op">=</span> <span class="dv">64</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="co"># .format()</span></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Octal: </span><span class="sc">{:o}</span><span class="st">&quot;</span>.<span class="bu">format</span>(num))</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a><span class="co"># f-string</span></span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Octal: </span><span class="sc">{</span>num<span class="sc">:o}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Octal: 100
+Octal: 100
+</code></pre>
+</div>
+</div>
+<div id="914be0ea-922e-438c-a516-c09792b6b25e" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h3 id="left-align---10"><strong>Left Align -
+<code>:&lt;10</code></strong></h3>
+</div>
+<div id="8555158f-58cf-4724-9501-2d94cff765e8" class="cell raw">
+
+</div>
+<div id="425d84f1-8135-4ffc-9166-17b838406f23" class="cell code"
+data-execution_count="26">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>name <span class="op">=</span> <span class="st">&quot;Yash&quot;</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a><span class="co"># .format()</span></span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;|</span><span class="sc">{:&lt;10}</span><span class="st">|&quot;</span>.<span class="bu">format</span>(name))</span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a><span class="co"># f-string</span></span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;|</span><span class="sc">{</span>name<span class="sc">:&lt;10}</span><span class="ss">|&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>|Yash      |
+|Yash      |
+</code></pre>
+</div>
+</div>
+<div id="8b81c1c9-18c6-4ba9-b41b-d3affcda6a3a" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h3 id="center-align---10"><strong>Center Align -
+<code>:^10</code></strong></h3>
+</div>
+<div id="945eb976-0532-4d74-9b83-84996acc57db" class="cell raw">
+
+</div>
+<div id="bdaa9245-3eed-4036-858d-c950345e724f" class="cell code"
+data-execution_count="28">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>name <span class="op">=</span> <span class="st">&quot;Yash&quot;</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a><span class="co"># .format()</span></span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;|</span><span class="sc">{:^10}</span><span class="st">|&quot;</span>.<span class="bu">format</span>(name))</span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a><span class="co"># f-string</span></span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;|</span><span class="sc">{</span>name<span class="sc">:^10}</span><span class="ss">|&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>|   Yash   |
+|   Yash   |
+</code></pre>
+</div>
+</div>
+<div id="1692370b-8a08-49bd-bf59-bdb20bfb081a" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h3 id="right-align---10"><strong>Right Align -
+<code>:&gt;10</code></strong></h3>
+</div>
+<div id="9dc7f34a-1370-4f30-a6ac-719f2c0b3def" class="cell raw">
+
+</div>
+<div id="c6d6c927-8adb-4c4c-b47f-704953953ab5" class="cell code"
+data-execution_count="30">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>name <span class="op">=</span> <span class="st">&quot;Yash&quot;</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a><span class="co"># .format()</span></span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;|</span><span class="sc">{:&gt;10}</span><span class="st">|&quot;</span>.<span class="bu">format</span>(name))</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a><span class="co"># f-string</span></span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;|</span><span class="sc">{</span>name<span class="sc">:&gt;10}</span><span class="ss">|&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>|      Yash|
+|      Yash|
+</code></pre>
+</div>
+</div>
+<div id="01a42a2b-72ce-405f-88b4-9666d952c634" class="cell markdown">
+<hr />
+</div>
+<div id="ecb01926-b18b-4254-8181-4a26aad136a1" class="cell markdown"
+data-jp-MarkdownHeadingCollapsed="true">
+<h2 id="-summary"><strong>✅ Summary:</strong></h2>
+<p>In this notebook, you learned:</p>
+<ul>
+<li>How to format strings using <code>.format()</code> and
+<code>f-strings</code></li>
+<li>Float formatting, number separators, and numeric base
+conversion</li>
+<li>Text alignment techniques for structured output</li>
+</ul>
+<p>💬 Want to explore or ask questions? Start here → <a
+href="https://github.com/StudiYash/PyKing/discussions"
+class="uri">https://github.com/StudiYash/PyKing/discussions</a></p>
+</div>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"943435b12ea86627","version":"2025.4.0-1-g37f21b1","r":1,"token":"0357a45f23a943f08700f7f9af191ee6","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}}}' crossorigin="anonymous"></script>
+</body>
+</html>
