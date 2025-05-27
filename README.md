@@ -33,10 +33,10 @@ Whether you're a complete newbie or someone revisiting Python, **PyKing** offers
 ## Course Structure📁 
 
 PyKing/
-├── Course Notebooks/ → 📘 Main Jupyter Notebooks (Recommended Learning Path)
-├── Course HTML Files/ → 🌐 Direct HTML Exports for Quick Preview in Browser
-├── PyKing Logo.png → 🖼️ Project Branding
-└── README.md → 📄 You're reading it!
+- Course Notebooks/ → 📘 Main Jupyter Notebooks (Recommended Learning Path)
+- Course HTML Files/ → 🌐 Direct HTML Exports for Quick Preview in Browser
+- PyKing Logo.png → 🖼️ Project Branding
+- README.md → 📄 You're reading it!
 
 Each Course Notebook includes:
 - ✅ Short lessons
